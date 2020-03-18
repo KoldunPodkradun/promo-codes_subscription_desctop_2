@@ -27,7 +27,7 @@
                         <span class="subscribe-block-subtitle subtitle">Почему вы решили отписаться?</span>
                         <div class="subscribe-block-radio-wrapp">
                             <div class="subscribe-block-input-wrapp">
-                                <input id="radio-1" class="subscribe-block-radio-input" type="radio" name="radio">
+                                <input id="radio-1" class="subscribe-block-radio-input" type="radio" name="radio" checked>
                                 <label for="radio-1" class="subscribe-block-radio-label">Причина один</label>
                             </div>
                             <div class="subscribe-block-input-wrapp">
@@ -60,19 +60,45 @@
         </div>
     </div>
     <div class="subscription-step-2">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="subscription-title title">Офрмите подписку (текст для краткого описание дествия):</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="management-item">
+                        <span class="title-big title">Slivki Black</span>
+                        <a href="#" class="link">Преимущества подписки</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="management-item">
+                        <span class="subtitle">Подписка активна</span>
+                        <p class="subscription-txt">Следующий платёж 1 апреля, спишется 4,99 руб</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="management-item">
+                        <p class="subscription-txt">Я больше не хочу получать бонусы и белимитные промокоды</p>
+                        <a href="#" class="link">Отписаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="popup-wrapp">
-        <div class="popup popup-one">
+        <div class="popup popup-one active">
             <h5 class="subtitle">Вы уверены что хотите отписаться?</h5>
             <p class="descr">Вам снова придется оплачивать кажый промокод 🙀</p>
             <div class="btn close-popup">Хорошо, я остаюсь!</div>
-            <div class="unsubscribe">Описаться</div>
+            <div class="unsubscribe unsubscribe-two">Описаться</div>
         </div>
-        <div class="popup popup-two" style="display: none;">
-            <h5 class="subtitle">Вы успешно отписались от подписки  Slivki Black</h5>
+        <div class="popup popup-two">
+            <h5 class="subtitle">Вы успешно отписались от подписки Slivki Black</h5>
             <p class="descr">Вы всегда можете вернуться</p>
-            <a class="advantages" href="#">Преимущества подписки</a>
+            <a class="link advantages" href="#">Преимущества подписки</a>
         </div>
     </div>
 </div>

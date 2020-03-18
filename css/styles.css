@@ -66,6 +66,10 @@ input:focus:-ms-input-placeholder {
     color: #000000;
 }
 
+.title-big {
+    font-size: 24px;
+}
+
 .subtitle-two {
     font-weight: 500;
     line-height: 21px;
@@ -96,6 +100,15 @@ input:focus:-ms-input-placeholder {
     padding-bottom: 30px;
     opacity: 0.5;
 }
+
+.link {
+    font-size: 16px;
+    line-height: 143.21%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #6747E5;
+}
+
 
 .subscription-title {
     position: relative;
@@ -262,7 +275,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .popup {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -274,15 +287,11 @@ input:focus:-ms-input-placeholder {
     padding-top: 72px;
 }
 
-.popup .descr {
-    color: #6747E5;
+.popup.active {
+    display: flex;
 }
 
-.popup .advantages {
-    font-size: 16px;
-    line-height: 143.21%;
-    text-align: center;
-    text-decoration-line: underline;
+.popup .descr {
     color: #6747E5;
 }
 
@@ -308,4 +317,18 @@ input:focus:-ms-input-placeholder {
     margin-bottom: 14px;
 }
 
+.subscription-txt {
+    font-size: 16px;
+    line-height: 143.21%;
+    color: #000000;
+}
 
+.management-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.management-item>:first-child {
+    margin-bottom: 12px;
+}
